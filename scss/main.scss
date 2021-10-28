@@ -1,0 +1,223 @@
+@import "./resets";
+body {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+.main {
+  height: 100%;
+}
+.top_slider {
+  background: url("../../img/topsection.jpg") no-repeat center/cover;
+  height: 100vh;
+
+  .top_menu {
+    nav {
+      padding: 20px 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      h1 {
+        font-size: 35px;
+      }
+    }
+    ul {
+      color: gray;
+      li {
+        font-size: 18px;
+        text-decoration: none;
+        display: inline;
+      }
+    }
+    .menu_items {
+      padding: 20px;
+    }
+    .menu_icons {
+      padding: 5px;
+    }
+  }
+  .tagline {
+    font-size: 50px;
+    text-align: center;
+    color: #463232;
+  }
+}
+.slider_text {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: left;
+  ul {
+    list-style: none;
+  }
+
+  .left-paragraph {
+    font-size: 15px;
+    max-width: 300px;
+  }
+  .search {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 10px;
+  }
+  input {
+    border: none;
+  }
+  .search-btn {
+    border: none;
+    background-color: #463232;
+    padding: 7px;
+    color: white;
+  }
+  .detail-btn {
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: none;
+    background-color: #463232;
+    color: white;
+  }
+}
+.slider-right-pragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-right: 280px;
+  margin-top: -120px;
+  font-size: 14px;
+  p {
+    color: gray;
+  }
+  strong {
+    color: black;
+  }
+}
+.social-media-icon {
+  display: flex;
+  justify-content: flex-end;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+    li {
+      padding: 20px 40px;
+
+      i {
+        font-size: 20px;
+        color: gray;
+      }
+    }
+  }
+}
+.lenders {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    margin: 20px;
+  }
+  .lender-logo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 8%;
+      max-height: 8%;
+      margin-right: 5%;
+      margin-bottom: 30px;
+    }
+  }
+}
+.about-us {
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .about-us-left {
+    margin-top: 80px;
+    ul {
+      list-style: none;
+    }
+    li {
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 20px;
+    }
+    button {
+      font-size: 15px;
+      padding: 10px 60px;
+      display: block;
+      border: none;
+      background-color: red;
+    }
+  }
+  .about-us-right {
+    margin-top: 50px;
+    ul {
+      list-style: none;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 400px;
+    }
+    button {
+      font-size: 15px;
+      padding: 10px 60px;
+      display: block;
+      border: 1px solid black;
+    }
+  }
+}
+.product {
+  margin-top: 40px;
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+  p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+}
+.product_sample {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 35px;
+
+  img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+  h1 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+}
